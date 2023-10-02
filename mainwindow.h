@@ -19,10 +19,13 @@ public:
 private slots:
     void on_pb_Cancel_clicked();
 
-    void on_pb_Ok_clicked();
+    void on_pb_Setting_clicked();
+
+    void on_pb_Connect_clicked();
 
 private:
     Ui::MainWindow *ui;
     Dialog_connect* dialog_con;
+    QString connect_line;
 };
 #endif // MAINWINDOW_H

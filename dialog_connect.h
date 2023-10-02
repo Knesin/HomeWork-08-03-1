@@ -3,6 +3,7 @@
 
 #include <QDialog>
 
+
 namespace Ui {
 class Dialog_connect;
 }
@@ -16,7 +17,7 @@ public:
     ~Dialog_connect();
 
 private slots:
-    void on_pb_OK_clicked();
+    void on_pb_d_OK_clicked();
 
 private:
     Ui::Dialog_connect *ui;
